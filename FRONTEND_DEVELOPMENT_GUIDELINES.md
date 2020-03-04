@@ -1,4 +1,4 @@
-# Frontend Development Guidelines
+# Rogue Sound Frontend Development Guidelines
 
 This document is currently a work in progress, and presents practical guidelines for developers and others at Rogue Sound who write or contribute to software.
 
