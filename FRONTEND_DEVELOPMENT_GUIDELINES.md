@@ -129,4 +129,16 @@ Avoid "force push" unless it makes everyone's life easier.
 
 ## How we do code reviews
 
-TODO
+Through reviewing each other's code, we believe that we will produce better code, that we will learn more about programming, and that we will learn more about what our colleagues are actually doing.
+
+A code review may be an iterative process in which a piece of code is commented upon or discussed, changed by the original author, and reviewed again before being approved.
+
+Reviews can be conducted at any stage in development (just let someone look at the code), but we'd like code to be more formally reviewed at least
+- before a feature branch is merged to the develop branch, or
+- when a bug is fixed on the master branch before its hotfix/bugfix branch is merged.
+
+To be able to use GitHub or a code review, both the author and the reviewer should have their own personal GitHub accounts.
+
+Once the user has finished writing code in a separate feature branch, it's time to create a Pull Request. The author must assign one or more reviewers from the Core Team in order to merge the feature branch into the develop branch. If needed, the author gives the reviewer(s) some background on the project, and what the code under review is supposed to do (don't hesitate to include some screenshots!).
+
+The reviewer(s) then looks at the code and leaves feedback (comments and/or questions) in the pull request. Note that these comments are public. If the reviewer(s) asks for changes, the author should apply them until its approval. Once it is approved, one of the reviwers will merge the pull request and delete the feature (or whatever) branch. **Note: this is the reviewer's job, not the author's job**.
