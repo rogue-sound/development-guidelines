@@ -12,7 +12,41 @@ _Code for others before coding for yourself._
 
 ### File organization
 
-TODO
+```
+src
+├─── assets
+├─── common
+├─── config
+├─── context
+├─── i18n
+├─── Layout
+│    ├─── Footer
+│    ├─── Header
+│    └─── Sidebar
+├─── pages
+│    └─── Home
+├─── routes
+├─── services
+├─── store
+├─── styles
+├─── themes
+└─── utils
+```
+
+- **assets**: All static files we need to run the project such as images, icons or SVGs.
+- **common**: Here we place all the _atomic_ React components. This means, reusable and indivisible React components used anywhere in the application. Such as buttons, inputs, dropdowns, etc.
+- **config**: Here we place all config files for the application.
+- **context**: Everything related to state management is placed here. We use `redux-toolkit`.
+- **i18n**: Internationalization.
+- **Layout**: This module is formed by the header, sidebar and footer of the application.
+- **pages**: Here we place all the pages of the application.
+- **routes**: React routing config is placed here.
+- **services**: This module contains all the API calls we make in the application (to the backend, to the Spotify API, etc.).
+- **store**: This is where we place the Redux store config.
+- **styles**: All the common and main SASS files are here. Right now is kind of deprecated, as we are using `styled-components`.
+- **themes**: All the themes for the application.
+- **utils**: All the functions that can be useful for the application are placed here.
+
 
 ### Naming convention
 
