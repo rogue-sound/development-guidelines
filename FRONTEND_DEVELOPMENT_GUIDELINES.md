@@ -83,7 +83,7 @@ Sensitive data includes things like passwords, usernames, server names, and data
 ## Development workflow
 
 1. On one hand, you can start looking for [unassigned issues](https://github.com/rogue-sound/rogue-sound-web/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee) in the repository. On the other hand, it is possible that, at some point, we make a list of improvements or new features for external contributors.
-2. Create a dedicated git branch with a name reflecting the feature to be implemented (`feature/some-name`).
+2. Create a [dedicated git branch](https://github.com/rogue-sound/development-guidelines/blob/master/FRONTEND_DEVELOPMENT_GUIDELINES.md#how-we-use-git) with a name reflecting the feature to be implemented (`feature/some-name`).
 3. Write a test (Ejem...)
 4. Push your feature branch to your upstream.
 5. Once it's ready, make a pull request into the develop branch.
