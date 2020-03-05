@@ -86,7 +86,7 @@ Sensitive data includes things like passwords, usernames, server names, and data
 2. Create a [dedicated git branch](https://github.com/rogue-sound/development-guidelines/blob/master/FRONTEND_DEVELOPMENT_GUIDELINES.md#how-we-use-git) with a name reflecting the feature to be implemented (`feature/some-name`).
 3. Write a test (Ejem...)
 4. Push your feature branch to your upstream.
-5. Once it's ready, make a pull request into the develop branch.
+5. Once it's ready, [make a pull request](https://github.com/rogue-sound/development-guidelines/blob/master/FRONTEND_DEVELOPMENT_GUIDELINES.md#how-we-do-code-reviews) into the develop branch.
 6. Wait for review and let the the reviewer (from the Core Team) merge and delete the feature branch.
 
 ### Testing
