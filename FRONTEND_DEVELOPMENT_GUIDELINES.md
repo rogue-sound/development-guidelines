@@ -110,6 +110,7 @@ With Git-Flow, branches are categorised into
 - A **master** branch.
 - A **develop** branch.
 - One or several **feature** branches.
+- One or several **bugfix** branches.
 - One or several **hotfix** branches.
 
 The code on the **master** branch is stable, properly tested and is the version of the code that a typical user should pick. No changes are made directly on the master branch (but see below).
@@ -120,7 +121,9 @@ A **feature** branch (often called `feature/some-name` where `some-name` is a ve
 
 Once the feature is finished, it is merged back into the develop branch, and its feature branch is deleted. In larger projects, new features should be implemented in feature branches and undergo review before merging (see below). This may be highly beneficial for small projects too, obviously (just do it!).
 
-A **hotfix** branch (often called `hotfix/some-name`) is a essentially a branch that implements a bugfix to a release. In terms of branching, it is thus very similar to a feature branch but for the master branch rather than for the develop branch. A hotfix should fix critical errors that were not caught in testing before the release was made.
+A **bugfix** branch (often called `bugfix/some-name`) is essentially a branch that implements a bugfix for the `develop` branch.
+
+A **hotfix** branch (often called `hotfix/some-name`) is essentially a branch that implements a bugfix to a release. In terms of branching, it is thus very similar to a bugfix branch but for the master branch rather than for the develop branch. A hotfix should fix critical errors that were not caught in testing before the release was made.
 
 The `master` and `develop` branches are never deleted, while the others are transient (temporary, for the duration of the development and review of the feature or hotfix).
 
